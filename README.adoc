@@ -1,0 +1,24 @@
+= Kart
+
+Aplicação para leitura de arquivo com resultado da corrida de kart.
+
+== Comandos
+
+=== Build da aplicação e execução dos testes
+
+ Executar o comando abaixo na raiz do projeto
+
+[source,shell]
+----
+./gradlew build
+----
+
+=== Execução da aplicação
+
+Acessar o diretório /build/libs e executar o comando abaixo, informando o caminho completo do arquivo como parâmetro.
+
+[source,shell]
+----
+ java -jar kart-1.0-SNAPSHOT.jar {caminho-do-arquivo}
+----
+
